@@ -18,11 +18,11 @@ const Contact = () => {
 
                         <input id="email" name='email' type="email" required placeholder='Your Email' className='bg-transparent border border-2px   p-6 text-center w-[300px] rounded-2xl' />
                     </div>
-                    <div className="mx-[70px] sm:col-span-2">
+                    <div className="mx-[150px] sm:col-span-2">
 
-                        <textarea id='message' className='resize-none focus:outline-none focus:border-pink-400 bg-transparent border border-2px p-4  text-center overflow-hidden w-full ' name='message' placeholder='Your Message' rows="4" />
+                        <textarea id='message' className='resize-none focus:outline-none focus:border-pink-400 bg-transparent border border-2px p-4  text-center overflow-hidden w-full rounded-[20px] ' name='message' placeholder='Your Message' rows="4" />
                     </div>
-                    <div className="w-[100px] mx-auto my-[20px] sm:col-span-2">
+                    <div className="w-[80px] mx-auto my-[20px] sm:col-span-2">
 
                         <button type='submit' id='message' className='resize-none focus:outline-none bg-gradient-to-r from-orange-400 to-pink-500 border border-2px p-4  text-center overflow-hidden w-full rounded-2xl border-none'>Submit</button>
                     </div>
